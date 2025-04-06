@@ -270,14 +270,14 @@ export async function handlePullRequestCommentEvent(
       })      .join('\n\n');
 
     // Get AI generated follow up response to the user's comment
-    const followUpResponse = await generateFollowUpResponse(
-      pullRequest,
-      userComment,
-      previousComments,
-      changedFilesData,
-      rawCode,
-      astReport
-    );
+    // const followUpResponse = await generateFollowUpResponse(
+    //   pullRequest,
+    //   userComment,
+    //   previousComments,
+    //   changedFilesData,
+    //   rawCode,
+    //   astReport
+    // );
 
 
     // Post the generated feedback as a comment on the pull request.
