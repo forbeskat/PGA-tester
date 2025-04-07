@@ -106,7 +106,7 @@ export async function fetchFullFileContent(
  * @returns An object containing both the aggregated raw code and AST report.
  */
 async function aggregateASTReport(
-  octokit: Octokit,
+  // octokit: Octokit,
   owner: string,
   repo: string,
   changedFilesData: any[]
