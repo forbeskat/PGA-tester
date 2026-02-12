@@ -14,7 +14,3 @@ const diffText = response.data;
     });
 
 
-
-ljkjhjkh
-
-some stuff
